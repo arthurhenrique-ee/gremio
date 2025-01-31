@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grêmio Nilda Carvalho Cunha</title>
+
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="responsive.css" media="screen">
+
+    <!-- ICONS INSTALL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"><img src="imagens/logo.png" alt="GNCC"></a>
+            </div><!-- LOGOTIPO -->
+
+            <div class="btn-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div><!-- BOTÃO MENU MOBILE -->
+
+            <div class="menu-desktop">
+                <nav>
+                    <a href="#home">Início</a>
+                    <a href="#quem-somos">Quem Somos</a>
+                    <a href="#diretorias">Diretorias</a>
+                    <a href="#integrantes">Integrantes</a>
+                    <a href="#eventos">Eventos</a>
+                    <a href="#fale-conosco">Fale Conosco</a>
+                </nav>
+            </div>
+
+            <div class="menu-mobile">
+                <nav>
+                    <a href="#home" onclick="linkMenu()">Início</a>
+                    <a href="#quem-somos" onclick="linkMenu()">Quem Somos</a>
+                    <a href="#diretorias" onclick="linkMenu()">Diretorias</a>
+                    <a href="#integrantes" onclick="linkMenu()">Integrantes</a>
+                    <a href="#eventos" onclick="linkMenu()">Eventos</a>
+                    <a href="#fale-conosco" onclick="linkMenu()">Fale Conosco</a>
+                </nav>
+            </div><!-- MENU MOBILE -->
+        </div>
+    </header><!-- HEADER -->
+
+    <section class="home" id="home">
+        <div class="interface">
+            <div class="txt-home">
+                <h1>Grêmio <span>Nilda Carvalho Cunha</span></h1>
+                <p>Dos estudantes, para os estudantes.</p>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+    </section><!-- HOME -->
+
+    <section class="quem-somos" id="quem-somos">
+        <div class="interface">
+            <div class="intro-section">
+                <h2>Quem <span>Somos</span></h2>
+                <p>Somos o Grêmio Estudantil Nilda Carvalho Cunha, uma organização formada por alunos, para alunos.
+                    Nosso objetivo é representar os interesses dos estudantes, promover a união entre todos e criar um
+                    ambiente mais participativo e colaborativo na escola.</p>
+            </div>
+
+            <div class="container-about">
+                <div class="box-about">
+                    <i class="bi bi-megaphone-fill"></i>
+                    <h3>Vozes em <span>Harmonia</span></h3>
+                    <p><span>Todas as vozes importam.</span> Acreditamos na democracia como ferramenta para ouvir,
+                        debater e crescer juntos.</p>
+                </div>
+
+                <div class="box-about">
+                    <i class="bi bi-people-fill"></i>
+                    <h3><span>Diversidade</span></h3>
+                    <p><span>Valorizamos a diversidade e a empatia.</span> Cada pessoa é única, e é essa pluralidade que
+                        faz a nossa escola.</p>
+                </div>
+
+                <div class="box-about">
+                    <i class="bi bi-clipboard2-check-fill"></i>
+                    <h3><span>A Verdade</span> na Mesa</h3>
+                    <p><span>Nossas ações são feitas com clareza e responsabilidade.</span> Transparência é o nosso
+                        lema: tudo o que fazemos, fazemos de peito aberto.</p>
+                </div>
+            </div>
+        </div>
+    </section><!-- QUEM SOMOS -->
+
+    <section class="diretorias" id="diretorias">
+        <div class="interface">
+            <div class="intro-section">
+                <h2><span>Diretorias</span></h2>
+                <p>Nossas diretorias são como os motores que movem o grêmio. Cada uma tem um papel essencial para
+                    organizar, criar e executar projetos que impactam a escola de forma positiva. Da liderança à
+                    comunicação, da cultura ao esporte, trabalhamos em equipe para fazer a diferença no dia a dia de
+                    todos os estudantes.</p>
+            </div>
+
+            <div class="container">
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/secretaria.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Secretaria</h3>
+                        <p>Organiza documentos, atas e toda a parte burocrática do grêmio.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-secretaria">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- SECRETARIA -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/tesouraria.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Tesouraria</h3>
+                        <p>Cuida das finanças e garante a transparência dos nossos recursos.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-tesouraria">Saiba mais</button>
+                        </a>
+                    </div>
+                </div><!-- TESOURARIA -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/combate-opressoes.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Combate às Opressões</h3>
+                        <p>Promove ações para combater desigualdades e preconceitos.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-combate-opressoes">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- COMABTE ÀS OPRESSÕES -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/pretos-pretas.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Pretos e Pretas</h3>
+                        <p>Fortalece a representatividade e valoriza a cultura afro-brasileira.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-pretos-pretas">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- PRETOS E PRETAS -->
+                
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/social.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Social</h3>
+                        <p>Foca em iniciativas solidárias e no bem-estar da comunidade escolar.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-social">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- SOCIAL -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/comunicacao.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Comunicação</h3>
+                        <p>Divulga eventos e mantém todos informados sobre nossas ações.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-comunicacao">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- COMUNICAÇÃO -->
+                
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/esportes.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Esportes</h3>
+                        <p>Incentiva práticas esportivas e organiza campeonatos na escola.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-esportes">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- ESPORTES -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/cultura.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Cultura</h3>
+                        <p>Promove eventos culturais e celebra as diversas expressões artísticas.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-cultura">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- CULTURA -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/politicas-educ.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Políticas Educacionais</h3>
+                        <p>Defende melhorias e direitos no ambiente de ensino.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-politicas-educ">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- POLÍTICAS EDUCACIONAIS -->
+                
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/mov-estudantil.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Movimento Estudantil</h3>
+                        <p>Engaja os alunos na luta por direitos e participação ativa.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="mov-estudantil">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- MOVIMENTO ESTUDANTIL -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/diversidade.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Diversidade</h3>
+                        <p>Garante espaço para todas as identidades e orientações.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-diversidade">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- DIVERSIDADE -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/mulheres.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Mulheres</h3>
+                        <p>Fortalece o protagonismo e a igualdade para meninas e mulheres.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-mulheres">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- MULHERES -->
+
+                <div class="box-diret">
+                    <div class="logo-diret">
+                        <img src="imagens/diretorias/meio-ambiente.png" alt="">
+                    </div>
+                    <div class="txt-box-diret">
+                        <h3>Meio Ambiente</h3>
+                        <p>Promove ações para preservar o meio ambiente na escola e fora dela.</p>
+                        <a href="javascript:void(0)">
+                            <button class="abrir-modal" data-modal="modal-meio-ambiente">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div><!-- MEIO AMBIENTE -->
+
+            </div><!-- CONTAINER -->
+        </div><!-- INTERFACE-->
+    </section><!-- DIRETORIAS -->
+
+    <section class="integrantes" id="integrantes">
+        <div class="interface">
+
+            <div class="intro-section">
+                <h2>Nossos <span>Integrantes</span></h2>
+                <p>Essa é a equipe que move o grêmio! Cada um com seu papel, mas todos com o mesmo objetivo: representar os alunos e tornar a escola um lugar ainda melhor. Conheça quem tá por trás das ideias, eventos e projetos!<br><br>Dica: Clique na foto de cada integrante para ver sua função dentro do Grêmio e saber mais sobre o que eles fazem!</p>
+            </div>
+
+        </div>
+
+        <div class="container">
+            
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/lemos.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Giovanna Lemos</h3>
+                        <p class="funcao-p">Presidente</p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LEMOS -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/horta.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Geovanna Horta</h3>
+                        <p class="funcao-p">Vice-presidente</p>
+                        <p class="funcao">Diretora <span>Pretos e Pretas</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- HORTA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/anasouza.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Ana Souza</h3>
+                        <p class="funcao-p">Secretária Geral</p>
+                        <p class="funcao">Diretora Geral <span>Meio Ambiente</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ANA SOUZA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/anacoelho.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Ana Coelho</h3>
+                        <p class="funcao-p">Primeira Secretária</p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ANA COELHO -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/luisa.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Luísa Lopes</h3>
+                        <p class="funcao">Tesoureira Geral</p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LUÍSA LOPES -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/italo.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Ítalo Augusto</h3>
+                        <p class="funcao-p">Primeiro Tesoureiro</p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ÍTALO AUGUSTO -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/marialuiza.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Maria Luiza</h3>
+                        <p class="funcao">Diretora Geral <span>Combate às Opressões</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- MARIA LUIZA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/gabrielaromualdo.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Gabriella Romualdo</h3>
+                        <p class="funcao">Diretora Geral <span>Mulheres</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- GABRIELLA ROMUALDO -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/sarahgaby.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Sarah Gaby</h3>
+                        <p class="funcao">Vice-diretora <span>Mulheres</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- SARAH GABY -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/rafael.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Rafael Henrique</h3>
+                        <p class="funcao">Diretor Geral <span>Diversidades</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- RAFAEL HENRIQUE -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/andrey.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Andrey Emanuel</h3>
+                        <p class="funcao">Diretor Geral <span>Mov. Estudantil</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ANDREY EMANUEL -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/leonardo.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Leonardo Orzil</h3>
+                        <p class="funcao">Vice-diretor <span>Mov. Estudantil</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LEONARDO ORZIL -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/lauraluiza.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Laura Luiza</h3>
+                        <p class="funcao">Diretora Geral <span>Políticas Educ.</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LAURA LUIZA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/brisa.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Brisa Rodrigues</h3>
+                        <p class="funcao">Vice-diretora <span>Políticas Educ.</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- BRISA RODRIGUES -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/dominic.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Dominic Ozolio</h3>
+                        <p class="funcao">Diretora Geral <span>Cultura</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- DOMINIC OZOLIO -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/giovanaemilly.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Giovanna Emilly</h3>
+                        <p class="funcao">Vice-diretora <span>Cultura</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- GIOVANNA EMILLY -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/anacarolina.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Ana Carolina</h3>
+                        <p class="funcao">Diretora Geral <span>Esportes</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ANA CAROLINA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/gabrielvieira.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Gabriel Vieira</h3>
+                        <p class="funcao">Vice-diretor <span>Esportes</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- GABRIEL VIEIRA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/anacerino.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Ana Cerino</h3>
+                        <p class="funcao">Diretora Geral <span>Comunicação</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ANA CERINO -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/arthurgunes.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Arthur Gunes</h3>
+                        <p class="funcao">Vice-diretor <span>Comunicação</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- ARTHUR GUNES -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/laisdesouza.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Lais de Souza</h3>
+                        <p class="funcao">Diretora Geral <span>Social</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LAIS DE SOUZA -->
+
+            <div class="perfil">
+                <img class="foto" src="imagens/integrantes/lauracouto.png" alt="">
+                <div class="info">
+                    <div>
+                        <h3 class="nome">Laura Couto</h3>
+                        <p class="funcao">Vice-diretora <span>Social</span></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div><!-- LAURA COUTO -->
+
+        </div>
+    </section><!-- INTEGRANTES -->
+
+    <section class="eventos" id="eventos">
+        <div class="interface">
+            <div class="intro-section">
+                <h2>Próximos <span>Eventos</span></h2>
+                <p>Fique por dentro das próximas atividades do nosso grêmio! Aqui você encontra eventos, projetos e ações que estão por vir. Participe e faça a diferença! </p>
+            </div>
+
+            <div class="container">
+                
+                <div class="box-evento">
+                    <div class="capa">
+                        <img src="imagens/eventos/evento01.jpeg" alt="">
+                    </div>
+
+                    <div class="info">
+                        <h3>Campeonato de Truco</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At voluptas libero dicta iure dignissimos tempore hic quisquam rem eligendi, qui quibusdam laudantium quo ipsum exercitationem voluptates dolorum id corrupti commodi.</p>
+                        <a href="eventos/campeonato-truco.html">
+                            <button>Mais informações ></button>
+                        </a>
+                    </div>
+                </div><!-- CAMPEONATO DE TRUCO -->
+                
+                <div class="box-evento">
+                    <div class="capa">
+                        <img src="imagens/eventos/evento02.jpg" alt="">
+                    </div>
+
+                    <div class="info">
+                        <h3>Festival de Pastel</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At voluptas libero dicta iure dignissimos tempore hic quisquam rem eligendi, qui quibusdam laudantium quo ipsum exercitationem voluptates dolorum id corrupti commodi.</p>
+                        <a href="#">
+                            <button>Mais informações ></button>
+                        </a>
+                    </div>
+                </div><!-- FESTIVAL DE PASTEL -->
+
+                <div class="box-evento">
+                    <div class="capa">
+                        <img src="imagens/eventos/evento03.jpg" alt="">
+                    </div>
+
+                    <div class="info">
+                        <h3>Jogos Interclasse 2025</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At voluptas libero dicta iure dignissimos tempore hic quisquam rem eligendi, qui quibusdam laudantium quo ipsum exercitationem voluptates dolorum id corrupti commodi.</p>
+                        <a href="#">
+                            <button>Mais informações ></button>
+                        </a>
+                    </div>
+                </div><!-- JOGOS INTERCLASSE 2025 -->
+
+            </div>
+        </div>
+    </section><!-- EVENTOS -->
+
+    <section class="fale-conosco" id="fale-conosco">
+        <div class="interface">
+            <div class="intro-section">
+                <h2>Fale <span>Conosco</span></h2>
+                <p>Quer falar com a gente? 📢 Manda um e-mail, deixa sua sugestão ou faça uma denúncia anônima. Sua voz importa!</p>
+            </div>
+
+            <div class="container">
+
+                <div class="box-contato">
+                    <div class="icone">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>E-mail</h3>
+                        <p>Precisa tirar dúvidas ou falar com o Grêmio? Envie um e-mail e responderemos o mais rápido possível.</p>
+                        <a href="#">
+                            <button>Enviar E-mail ></button>
+                        </a>
+                    </div>
+                </div><!-- EMAIL -->
+
+                <div class="box-contato">
+                    <div class="icone">
+                        <i class="bi bi-lightbulb-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Sugestão</h3>
+                        <p>Tem uma ideia para melhorar a escola? Preencha o formulário e compartilhe sua sugestão com a gente!</p>
+                        <a href="#">
+                            <button>Formulário ></button>
+                        </a>
+                    </div>
+                </div><!-- SUGESTÃO -->
+
+                <div class="box-contato">
+                    <div class="icone">
+                        <i class="bi bi-exclamation-circle-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Denúncia</h3>
+                        <p>Presenciou alguma situação de violência ou discriminação? Faça uma denúncia anônima e segura pelo formulário.</p>
+                        <a href="#">
+                            <button>Denunciar ></button>
+                        </a>
+                    </div>
+                </div><!-- DENÚNCIA -->
+            </div>
+        </div>
+    </section><!-- FALE CONOSCO -->
+
+    <footer>
+        <p class="copyright">Grêmio <span style="font-weight: bold;">Nilda Carvalho Cunha</span> 2025 &copy; Todos os direitos reservados.</p>
+        <p>Desenvolvido por: <a href="https://wa.me/5531996386653">Arthur Gunes</a></p>
+    </footer>
+
+
+
+
+
+    <!-- MODAIS DIRETORIAS -->
+    <div class="fundo-modal" id="modal-secretaria">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/secretaria.png" alt="">
+                </div>
+                <h3>Secretaria</h3>
+                <p>A Secretaria é a diretoria que mantém tudo funcionando de forma organizada. Somos responsáveis pelos registros, documentos e pelo bom andamento das reuniões. Tudo o que é decidido no grêmio passa por aqui para ser registrado de forma oficial.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/anasouza.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ana Souza</p>
+                        <p class="funcao">Secretária Geral</p>
+                    </div>
+                </div><!-- ANA SOUZA -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/anacoelho.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ana Coelho</p>
+                        <p class="funcao">Primeira Secretária</p>
+                    </div>
+                </div><!-- ANA COELHO -->
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Criamos e arquivamos atas de reuniões do grêmio;</li>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos documentos importantes, como estatuto e regulamentos;</li>
+                    <li><i class="bi bi-check2-circle"></i> Mantemos um calendário atualizado com compromissos do grêmio;</li>
+                    <li><i class="bi bi-check2-circle"></i> Apoiamos a presidência no planejamento de reuniões e eventos;</li>
+                    <li><i class="bi bi-check2-circle"></i> Garantimos que as informações do grêmio sejam bem documentadas.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+
+            <div class="links">
+                <h4><span>Transparência</span> e Acesso</h4>
+                <a href="#">
+                    <button><i class="bi bi-file-earmark-text-fill"></i>
+                        Documentos ></button>
+                </a>
+                <a href="#">
+                    <button><i class="bi bi-file-check-fill"></i>
+                        Estatuto ></button>
+                </a>
+                <a href="#">
+                    <button><i class="bi bi-file-earmark-post"></i>
+                        Atas ></button>
+                </a>
+            </div><!-- LINKS -->
+        </div>
+    </div><!-- SECRETARIA -->
+
+    <div class="fundo-modal" id="modal-tesouraria">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/tesouraria.png" alt="">
+                </div>
+                <h3>Tesouraria</h3>
+                <p>O dinheiro do grêmio é utilizado para melhorar a vida dos estudantes, seja financiando eventos, comprando materiais ou investindo em melhorias. A Tesouraria gerencia esses recursos com total responsabilidade e transparência.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/luisa.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Luísa Lopes</p>
+                        <p class="funcao">Tesoureira Geral</p>
+                    </div>
+                </div><!-- LUÍSA LOPES -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/italo.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ítalo Augusto</p>
+                        <p class="funcao">Primeiro Tesoureiro</p>
+                    </div>
+                </div><!-- ÍTALO AUGUSTO -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Cuidamos da arrecadação de dinheiro (eventos, rifas, doações);</li>
+                    <li><i class="bi bi-check2-circle"></i> Mantemos registros detalhados de todas as movimentações financeiras;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos estratégias para arrecadar fundos de forma sustentável;</li>
+                    <li><i class="bi bi-check2-circle"></i> Trabalhamos junto à Secretaria para manter registros financeiros organizados.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+
+            <div class="links">
+                <h4>Acompanhe as <span>Finanças do Grêmio</span></h4>
+                <a href="#">
+                    <button><i class="bi bi-file-earmark-spreadsheet"></i>
+                        Planilha ></button>
+                </a>
+            </div><!-- LINKS -->
+        </div>
+    </div><!-- TESOURARIA -->
+
+    <div class="fundo-modal" id="modal-combate-opressoes">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/tesouraria.png" alt="">
+                </div>
+                <h3>Combate às Opressões</h3>
+                <p>A diretoria de Combate às Opressões atua para garantir respeito e igualdade dentro da escola. Aqui, lutamos contra qualquer forma de discriminação e buscamos criar um ambiente seguro para todos os estudantes.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/marialuiza.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Maria Luiza</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- MARIA LUIZA -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Recebemos e acompanhamos denúncias de discriminação, bullying e assédio;</li>
+                    <li><i class="bi bi-check2-circle"></i> Encaminhamos os casos para as instâncias adequadas e acompanhamos as soluções;</li>
+                    <li><i class="bi bi-check2-circle"></i> Promovemos rodas de conversa, palestras e campanhas de conscientização;</li>
+                    <li><i class="bi bi-check2-circle"></i> Trabalhamos junto à Secretaria para manter registros financeiros organizados.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+
+            <div class="links">
+                <h4>Faça uma Denúncia <span>de Forma Segura</span></h4>
+                <a href="#">
+                    <button><i class="bi bi-exclamation-circle-fill"></i>
+                        Denunciar ></button>
+                </a>
+            </div><!-- LINKS -->
+        </div>
+    </div><!-- COMBATE ÀS OPRESSÕES -->
+
+    <div class="fundo-modal" id="modal-pretos-pretas">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/pretos-pretas.png" alt="">
+                </div>
+                <h3>Pretos e Pretas</h3>
+                <p>A diretoria de Pretos e Pretas atua para fortalecer a identidade e o protagonismo negro dentro da escola. Buscamos combater o racismo, destacar a cultura afro-brasileira e garantir que os estudantes negros tenham voz e espaço.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/horta.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Geovanna Horta</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- GEOVANNA HORTA -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos eventos e atividades para fortalecer a cultura afro-brasileira;</li>
+                    <li><i class="bi bi-check2-circle"></i> Lutamos contra o racismo e promovemos o respeito à diversidade étnico-racial;</li>
+                    <li><i class="bi bi-check2-circle"></i> Defendemos políticas que garantam igualdade e oportunidades para todos;</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- PRETOS E PRETAS -->
+
+    <div class="fundo-modal" id="modal-social">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/social.png" alt="">
+                </div>
+                <h3>Social</h3>
+                <p>A Diretoria Social tem como objetivo integrar os estudantes e promover ações que estimulem a solidariedade e o bem-estar dentro da escola. Seja através de campanhas, projetos de acolhimento ou atividades de lazer, buscamos criar um ambiente mais acolhedor e participativo para todos.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/laisdesouza.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Lais de Souza</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- LAIS DE SOUZA -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/lauracouto.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Laura Couto</p>
+                        <p class="funcao">Vice-diretora</p>
+                    </div>
+                </div><!-- LAURA COUTO -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos projetos de acolhimento para novos alunos;</li>
+                    <li><i class="bi bi-check2-circle"></i> Promovemos campanhas solidárias (arrecadação de alimentos, roupas e materiais);</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos estratégias para arrecadar fundos de forma sustentável;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos espaços de escuta para estudantes que precisam de apoio;</li>
+                    <li><i class="bi bi-check2-circle"></i> Facilitamos a comunicação entre os alunos e o grêmio.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- SOCIAL -->
+
+    <div class="fundo-modal" id="modal-comunicacao">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/comunicacao.png" alt="">
+                </div>
+                <h3>Comunicação</h3>
+                <p>A Diretoria de Comunicação é responsável por manter os estudantes informados sobre tudo o que acontece no grêmio. Somos a ponte entre os alunos e as ações realizadas, garantindo que todas as informações sejam divulgadas de maneira clara e acessível.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/anacerino.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ana Cerino</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- ANA CERINO -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/arthurgunes.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Arthur Gunes</p>
+                        <p class="funcao">Vice-diretor</p>
+                    </div>
+                </div><!-- ARTHUR GUNES -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Gerenciamos as redes sociais e os canais de comunicação do grêmio;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos conteúdos informativos (postagens, cartazes, boletins);</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos estratégias para arrecadar fundos de forma sustentável;</li>
+                    <li><i class="bi bi-check2-circle"></i> Mantemos os estudantes atualizados sobre eventos, projetos e reuniões;</li>
+                    <li><i class="bi bi-check2-circle"></i> Facilitamos o contato entre os alunos e o grêmio para dúvidas e sugestões.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+
+            <div class="links">
+                <h4>Acompanhe <span>Nossas Atualizações</span></h4>
+                <a href="https://instagram.com/gremio_nildacc" target="_blank">
+                    <button><i class="bi bi-instagram"></i>
+                        Instagram ></button>
+                </a>
+            </div><!-- LINKS -->
+        </div>
+    </div><!-- COMUNICAÇÃO -->
+
+    <div class="fundo-modal" id="modal-esportes">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/esportes.png" alt="">
+                </div>
+                <h3>Esportes</h3>
+                <p>A Diretoria de Esportes promove o esporte como ferramenta de inclusão e bem-estar. Buscamos incentivar a participação dos estudantes em atividades físicas, torneios e projetos esportivos, além de defender melhorias na infraestrutura esportiva da escola.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/anacarolina.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ana Carolina</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- ANA CAROLINA -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/gabrielvieira.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Gabriel Vieira</p>
+                        <p class="funcao">Vice-diretor</p>
+                    </div>
+                </div><!-- GABRIEL VIEIRA -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos campeonatos internos e interclasses;</li>
+                    <li><i class="bi bi-check2-circle"></i> Incentivamos a prática esportiva entre os estudantes;</li>
+                    <li><i class="bi bi-check2-circle"></i> Trabalhamos para garantir melhores condições nas quadras e materiais esportivos;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos projetos de integração esportiva para todos os alunos.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- ESPORTES -->
+
+    <div class="fundo-modal" id="modal-cultura">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/cultura.png" alt="">
+                </div>
+                <h3>Cultura</h3>
+                <p>A Diretoria de Cultura tem a missão de incentivar a criatividade e a expressão artística dentro da escola. Buscamos valorizar a diversidade cultural e criar espaços para que os estudantes possam demonstrar seus talentos e desenvolver sua identidade cultural.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/dominic.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Dominic Ozolio</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- DOMINIC OZOLIO -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/giovanaemilly.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Giovanna Emilly</p>
+                        <p class="funcao">Vice-diretora</p>
+                    </div>
+                </div><!-- GIOVANNA EMILLY -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos eventos culturais, como festivais, saraus e apresentações musicais;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos espaços para a arte, como exposições e oficinas;</li>
+                    <li><i class="bi bi-check2-circle"></i> Incentivamos a valorização da cultura local e diversidade artística;</li>
+                    <li><i class="bi bi-check2-circle"></i> Trabalhamos para incluir mais atividades culturais no ambiente escolar.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- CULTURA -->
+
+    <div class="fundo-modal" id="modal-politicas-educ">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/politicas-educ.png" alt="">
+                </div>
+                <h3>Políticas Educacionais</h3>
+                <p>A Diretoria de Políticas Educacionais atua na luta por melhorias no ensino e nas condições de aprendizado dentro da escola. Nosso objetivo é garantir que os direitos dos estudantes sejam respeitados, promovendo debates sobre educação e buscando soluções para problemas acadêmicos.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/lauraluiza.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Laura Luiza</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- LAURA LUIZA -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/brisa.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Brisa Rodrigues</p>
+                        <p class="funcao">Vice-diretora</p>
+                    </div>
+                </div><!-- BRISA RODRIGUES -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Defendemos melhorias na estrutura e qualidade do ensino;</li>
+                    <li><i class="bi bi-check2-circle"></i> Dialogamos com a gestão escolar sobre demandas dos estudantes;</li>
+                    <li><i class="bi bi-check2-circle"></i> Acompanhamos questões como carga horária, avaliações e metodologias de ensino;</li>
+                    <li><i class="bi bi-check2-circle"></i> Lutamos por mais acessibilidade e inclusão no ambiente escolar.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+
+            <div class="links">
+                <h4>Sugira <span>Melhorias na Escola</span></h4>
+                <a href="#">
+                    <button><i class="bi bi-lightbulb-fill"></i>
+                        Sugestão ></button>
+                </a>
+            </div><!-- LINKS -->
+        </div>
+    </div><!-- POLÍTICAS EDUCACIONAIS -->
+
+    <div class="fundo-modal" id="mov-estudantil">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/mov-estudantil.png" alt="">
+                </div>
+                <h3>Movimento Estudantil</h3>
+                <p>A Diretoria de Movimento Estudantil representa os interesses dos alunos dentro e fora da escola, organizando mobilizações e ações para garantir melhores condições de ensino e convivência. Trabalhamos para fortalecer o protagonismo estudantil e incentivar o engajamento de todos.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/andrey.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Andrey Emanuel</p>
+                        <p class="funcao">Diretor Geral</p>
+                    </div>
+                </div><!-- ANDREY EMANUEL -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/leonardo.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Leonardo Orzil</p>
+                        <p class="funcao">Vice-diretor</p>
+                    </div>
+                </div><!-- LEONARDO ORZIL -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos assembleias para discutir temas importantes para os estudantes;</li>
+                    <li><i class="bi bi-check2-circle"></i> Mobilizamos os alunos para reivindicar direitos e melhorias;</li>
+                    <li><i class="bi bi-check2-circle"></i> Mantemos contato com outras escolas e organizações estudantis;</li>
+                    <li><i class="bi bi-check2-circle"></i> Defendemos políticas que beneficiem os estudantes.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- MOVIMENTO ESTUDANTIL -->
+
+    <div class="fundo-modal" id="modal-diversidade">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/diversidade.png" alt="">
+                </div>
+                <h3>Diversidade</h3>
+                <p>A Diretoria de Diversidade tem o compromisso de promover um ambiente escolar seguro e respeitoso para todos, independente de identidade de gênero, orientação sexual, etnia ou qualquer outra característica. Lutamos contra preconceitos e pela valorização das diferenças..</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/rafael.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Rafael Henrique</p>
+                        <p class="funcao">Diretor Geral</p>
+                    </div>
+                </div><!-- RAFAEL HENRIQUE -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Criamos espaços de acolhimento e escuta para estudantes LGBTQIAPN+ e outros grupos minorizados;</li>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos debates e palestras sobre diversidade e inclusão;</li>
+                    <li><i class="bi bi-check2-circle"></i> Combatemos o preconceito dentro do ambiente escolar;</li>
+                    <li><i class="bi bi-check2-circle"></i> Promovemos campanhas de conscientização sobre respeito e direitos;</li>
+                    <li><i class="bi bi-check2-circle"></i> Defendemos políticas para tornar a escola mais inclusiva.</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- DIVERSIDADE -->
+
+    <div class="fundo-modal" id="modal-mulheres">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/mulheres.png" alt="">
+                </div>
+                <h3>Mulheres</h3>
+                <p>A Diretoria de Mulheres trabalha para garantir que as alunas tenham um espaço de fala e protagonismo dentro da escola. Defendemos os direitos das estudantes e promovemos debates sobre igualdade de gênero, combate ao assédio e empoderamento feminino.</p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/gabrielaromualdo.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Gabriella Romualdo</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- GABRIELLA ROMUALDO -->
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/sarahgaby.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Sarah Gaby</p>
+                        <p class="funcao">Vice-diretora</p>
+                    </div>
+                </div><!-- SARAH GABY -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Criamos redes de apoio entre alunas para acolhimento e troca de experiências;</li>
+                    <li><i class="bi bi-check2-circle"></i> Promovemos debates sobre feminismo, igualdade de gênero e combate ao machismo;</li>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos campanhas contra assédio e violência de gênero;</li>
+                    <li><i class="bi bi-check2-circle"></i> Lutamos por mais segurança e respeito dentro da escola;</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- MULHERES -->
+
+    <div class="fundo-modal" id="modal-meio-ambiente">
+        <div class="modal">
+
+            <button class="fechar-modal">&times;</button><!-- BOTÃO FECHAR -->
+
+            <div class="intro-modal">
+                <div class="logo">
+                    <img src="imagens/diretorias/meio-ambiente.png" alt="">
+                </div>
+                <h3>Meio Ambiente</h3>
+                <p>A Diretoria de Meio Ambiente trabalha para conscientizar os estudantes sobre a importância da sustentabilidade e incentivar ações que tornem a escola um espaço mais ecológico. Nosso objetivo é reduzir impactos ambientais e criar uma cultura de respeito à natureza.
+                </p>
+            </div><!-- INTRO -->
+
+            <div class="integ">
+                <h4><span>Integrantes:</span></h4>
+
+                <div class="perfil">
+                    <div class="foto">
+                        <img src="imagens/integrantes/anasouza.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p class="nome">Ana Souza</p>
+                        <p class="funcao">Diretora Geral</p>
+                    </div>
+                </div><!-- ANA SOUZA -->
+
+            </div><!-- INTEGRANTES -->
+
+            <div class="atuacao">
+                <h4>O que <span>Fazemos?</span></h4>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> Organizamos campanhas de reciclagem e redução de lixo;</li>
+                    <li><i class="bi bi-check2-circle"></i> Criamos projetos de sustentabilidade dentro da escola;</li>
+                    <li><i class="bi bi-check2-circle"></i> Lutamos por melhores práticas ecológicas na gestão da escola;</li>
+                    <li><i class="bi bi-check2-circle"></i> Incentivamos o uso consciente de recursos como água e energia;</li>
+                </ul>
+            </div><!-- ATUAÇÃO -->
+        </div>
+    </div><!-- MEIO AMBIENTE -->
+
+    <script src="script/menu.js"></script>
+    <script src="script/modal.js"></script>
+</body>
+
+</html>

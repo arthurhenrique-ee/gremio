@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px) {
+
+    /* HEADER */
+    header .btn-menu {
+        display: none;
+    }
+
+    header .menu-desktop {
+        display: block;
+    }
+
+
+
+
+    /* HOME */
+    .home .txt-home h1 {
+        font-size: 3em;
+    }
+
+    .home .txt-home p {
+        font-size: 22px;
+    }
+
+
+
+
+
+    /* QUEM SOMOS */
+    .quem-somos .container-about {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .quem-somos .container-about .box-about {
+        width: 300px;
+    }
+
+
+
+
+
+    /* INTEGRANTES */
+    .integrantes .perfil {
+        width: 20%;
+    }
+
+
+
+
+
+    /* EVENTOS */
+  
+    .eventos .box-evento {
+        max-width: 30%;
+    }
+}
