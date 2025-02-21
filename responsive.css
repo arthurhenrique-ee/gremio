@@ -40,6 +40,24 @@
 
 
 
+    /* DIRETORIAS */
+    .diretorias .container {
+        gap: 40px;
+    }
+    
+    .diretorias .box-diret {
+        max-width: 300px;
+        height: 380px;
+    }
+    
+    .diretorias .box-diret img {
+        margin-bottom: 10px;
+        width: 80px;
+    }
+
+
+
+
 
     /* INTEGRANTES */
     .integrantes .perfil {
@@ -54,5 +72,16 @@
   
     .eventos .box-evento {
         max-width: 30%;
+    }
+
+
+
+
+
+    /* MODAIS */
+    .modal {
+        padding: 80px 60px 80px 60px;
+        width: 550px;
+        height: 750px;
     }
 }

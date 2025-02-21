@@ -11,6 +11,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 button, div, a {
     -webkit-tap-highlight-color: transparent;
     outline: none;
@@ -143,7 +147,7 @@ header .menu-mobile nav a {
     text-align: center;
     text-decoration: none;
     color: #000;
-    margin: 15px 0;
+    margin: 20px 0;
     font-size: 20px;
     transition: .3s;
 }
@@ -295,6 +299,10 @@ section.diretorias {
     width: 100px;
 }
 
+.diretorias .box-diret h3 {
+    line-height: 25px;       
+}
+
 .diretorias .box-diret p {
     margin: 15px 0;
     font-size: 14px;
@@ -309,11 +317,12 @@ section.diretorias {
     border: none;
     border-bottom: 2px solid #000;
     cursor: pointer;
+    transition: .2s;
 
 }
 
 .diretorias .box-diret button:hover {
-    border-bottom: 3px solid #000;
+    opacity: 0.6;
 }
 
 
@@ -478,7 +487,7 @@ section.fale-conosco .box-contato {
 
 .fale-conosco .box-contato .icone i {
     font-size: 3em;
-    color: #000000da;
+    color: #000000f3;
 }
 
 .fale-conosco .box-contato .info p {
@@ -505,8 +514,8 @@ section.fale-conosco .box-contato {
 /* RODAPÉ */
 footer {
     padding: 40px 30px;
-    background-color: #f2f2f2;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     text-align: center;
 }
 
@@ -516,7 +525,7 @@ footer p {
 }
 
 footer p a {
-    color: #000;
+    color: #fff;
 }
 
 footer p a:hover {
@@ -545,9 +554,19 @@ footer .copyright {
     overflow: hidden;
     backdrop-filter: blur(5px);
     
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.fundo-modal.ativo {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
 }
 
 .modal {
@@ -557,7 +576,7 @@ footer .copyright {
     padding: 80px 40px 80px 40px;
     width: 350px;
     height: 550px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -607,6 +626,7 @@ footer .copyright {
 
 .modal .intro-modal p {
     font-weight: 300;
+    font-size: 15px;
 }
 
 .modal .integ {
