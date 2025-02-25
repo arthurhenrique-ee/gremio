@@ -475,6 +475,42 @@ section.eventos {
 
 
 
+/* NOTÍCIAS */
+section.noticias .box-noticia {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 0;
+
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.noticias .box-noticia p.data {
+    display: flex;
+    gap: 10px;
+    color: #000000b2;
+}
+
+.noticias .box-noticia h3 {
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+.noticias .box-noticia p.desc {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.noticias .box-noticia .capa img {
+    border-radius: 15px;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
 /* FALE CONOSCO */
 section.fale-conosco .box-contato {
     display: flex;
@@ -482,7 +518,7 @@ section.fale-conosco .box-contato {
     gap: 30px;
 
     padding: 40px 0;
-    border-bottom: 1px solid #000000cb;
+    border-bottom: 1px solid #cccccc;
 }
 
 .fale-conosco .box-contato .icone i {
