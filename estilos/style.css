@@ -340,7 +340,7 @@ section.diretorias {
 
 .integrantes .perfil {
     position: relative;
-    width: 200px;
+    width: 150px;
     cursor: pointer;
     overflow: hidden;
     border-radius: 5px;
