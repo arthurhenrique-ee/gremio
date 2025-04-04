@@ -443,6 +443,8 @@ section.eventos {
 }
 
 .eventos .box-evento .capa img {
+    object-fit: cover;
+    height: 300px;
     width: 100%;
 }
 
