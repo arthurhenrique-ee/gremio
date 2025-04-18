@@ -335,16 +335,13 @@ section.diretorias {
     justify-content: center;
     width: 100%;
     margin: 50px 0;
-    gap: 10px;
 }
 
 .integrantes .perfil {
     position: relative;
-    width: 150px;
+    width: 33.333%;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #00000070;
 }
 
 .integrantes .perfil .foto {
@@ -356,11 +353,10 @@ section.diretorias {
     position: absolute;
     top: 100%;
     left: 0;
-    height: 40%;
+    height: 100%;
     width: 100%;
     z-index: 10;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
     text-align: center;
     transition: .3s;
 
@@ -370,7 +366,7 @@ section.diretorias {
 }
 
 .integrantes .perfil:hover .info {
-    top: 60%;
+    top: 0;
 }
 
 .integrantes .perfil .nome {
